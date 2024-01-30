@@ -12,6 +12,7 @@ import {MatToolbarModule} from '@angular/material/toolbar';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ExperiencesComponent } from './experiences/experiences.component';
+import { SocialComponent } from './social/social.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ExperiencesComponent } from './experiences/experiences.component';
     HeaderComponent,
     LandingPageComponent,
     AboutMeComponent,
-    ExperiencesComponent
+    ExperiencesComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule,
