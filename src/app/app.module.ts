@@ -10,12 +10,14 @@ import {MatDividerModule} from '@angular/material/divider';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { AboutMeComponent } from './about-me/about-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    AboutMeComponent
   ],
   imports: [
     BrowserModule,

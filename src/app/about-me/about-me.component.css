@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@400;700&display=swap');
+
+*{
+    color: #01124C;
+}
+
+.about-me{
+    background: #FECCC5;
+    padding: 5vw 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-photo{
+    width: 40%;
+}
+
+.icon{
+    height: 10vh;
+}
+
+.side-text{
+    width: 50%;
+}
+
+.up-quote{
+    display: flex;
+    align-items: center;
+}
+
+.quote{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+}
+
+.text-description{
+    font-family: 'Amiko', sans-serif;
+    font-size: large;
+}
+
+span{
+    font-weight: 700;
+}
