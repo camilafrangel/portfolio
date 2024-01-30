@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko:wght@700&display=swap');
+
+* {
+    font-family: 'Amiko', sans-serif;
+    font-size: 20px;
+}
+
+.header {
+    background: none;
+    justify-content: space-between;
+    padding: 0 5vw;
+}
+
+.logo-header{
+    height: 40px;
+}
+
+.header-item{
+    color: #033C7F;
+    text-decoration: none;
+    padding: 0 2vw;
+}
+
+.mail-button{
+    background: #033C7F;
+    color: #FECCC5;
+    border-radius: 50px;
+    width: 180px;
+    font-size: 18px;
+}
+
+.mail-button:hover{
+    background-color: #FE9D10;
+    color: #033C7F;
+}
