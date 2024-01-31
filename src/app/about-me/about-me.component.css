@@ -27,17 +27,22 @@
 
 .up-quote{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    padding-bottom: 5vh;
 }
 
 .quote{
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 700;
+    font-size: 20px;
+    line-height: normal;
+    padding-left: 2vw;
 }
 
 .text-description{
     font-family: 'Amiko', sans-serif;
     font-size: large;
+    line-height: normal;
 }
 
 span{
