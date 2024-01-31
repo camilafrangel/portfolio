@@ -3,13 +3,17 @@
 * {
     font-family: 'Amiko', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .header {
-    background: none;
+    background: #ECDCC3;
     justify-content: space-between;
     padding: 0 5vw;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
 }
 
 .logo-header{
@@ -19,18 +23,23 @@
 .header-item{
     color: #033C7F;
     text-decoration: none;
-    padding: 0 2vw;
-}
+    padding: 0 1vw;
+    cursor: pointer;
+} 
 
 .mail-button{
     background: #033C7F;
     color: #FECCC5;
     border-radius: 50px;
     width: 180px;
-    font-size: 18px;
+    margin-left: 2vw;
 }
 
 .mail-button:hover{
     background-color: #FE9D10;
     color: #033C7F;
+}
+
+.hidden-item{
+    display: none;
 }

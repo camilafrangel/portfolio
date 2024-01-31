@@ -1,10 +1,11 @@
-<p>
-    <mat-toolbar class="header">
-      <img class="logo-header" src="assets/logo-header.png" alt="logo-header">
-      <div class="header-items">
-        <a href="" class="header-item">about me</a>
-        <a href="" class="header-item">experience</a>
-        <a target="_blank" href="mailto:camilafrangel.dev@gmail.com" class="mail-button" mat-flat-button>get in touch!</a>
-      </div>
-    </mat-toolbar>
-</p>
+<mat-toolbar class="header">
+  <img class="logo-header" src="assets/logo-header.png" alt="logo-header">
+  <div class="header-items">
+    <a (click)="home()" class="header-item">home</a>
+    <a (click)="aboutMe()" class="header-item">about me</a>
+    <a (click)="experience()" class="header-item">experience</a>
+    <a class="hidden-item" >development</a>
+    <a class="hidden-item">design</a>
+    <a target="_blank" href="mailto:camilafrangel.dev@gmail.com" class="mail-button" mat-flat-button>get in touch!</a>
+  </div>
+</mat-toolbar>

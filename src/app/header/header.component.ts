@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ScrollService } from '../scroll.service';
 
 @Component({
   selector: 'app-header',
@@ -7,9 +8,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor(private scrollService: ScrollService) { }
 
   ngOnInit(): void {
   }
 
+  home(){
+    this.scrollService.scrollToElement('homeSection');
+  }
+
+  aboutMe(){
+    this.scrollService.scrollToElement('aboutMeSection');
+  };
+
+  experience(){
+    this.scrollService.scrollToElement('experienceSection');
+  };
 }
