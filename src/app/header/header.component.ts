@@ -14,14 +14,14 @@ export class HeaderComponent implements OnInit {
   }
 
   home(){
-    this.scrollService.scrollToElement('homeSection');
+    this.scrollService.scrollToElement('homeSection', 60);
   }
 
   aboutMe(){
-    this.scrollService.scrollToElement('aboutMeSection');
+    this.scrollService.scrollToElement('aboutMeSection', 60);
   };
 
   experience(){
-    this.scrollService.scrollToElement('experienceSection');
+    this.scrollService.scrollToElement('experienceSection', 60);
   };
 }

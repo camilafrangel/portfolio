@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+
+.experiences{
+    background: #01124C;
+    color: #ECDCC3;
+    font-family: 'Amiko', sans-serif;
+    padding: 0 8vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experiences-columns{
+    display: flex;
+    justify-content: space-between;
+}
+
+.work{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.education {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 40px;
+    padding-bottom: 4vh;
+}
+
+h2{
+    color: #6CD0D0;
+    font-size: 20px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+p{
+    line-height: normal;
+    font-size: large;
+}
+
+.linkedin-button{
+    background: #6CD0D0;;
+    color: #01124C;
+    border-radius: 50px;
+    width: 180px;
+    align-self: center;
+    font-size: 15px;
+    margin-top: 5vh;
+}

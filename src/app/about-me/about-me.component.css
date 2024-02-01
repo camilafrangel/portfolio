@@ -7,10 +7,11 @@
 
 .about-me{
     background: #FECCC5;
-    padding: 5vw 5vw;
+    padding: 0 8vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 95vh;
 }
 
 .my-photo{
@@ -22,7 +23,7 @@
 }
 
 .side-text{
-    width: 50%;
+    width: 45%;
 }
 
 .up-quote{
